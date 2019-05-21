@@ -16,5 +16,10 @@ namespace CrossLibrary
         {
             InitializeComponent();
         }
+
+        async void OnButtonClicked(object sender, EventArgs args)
+        {
+            await label.RelScaleTo(5) ;
+        }
     }
 }
