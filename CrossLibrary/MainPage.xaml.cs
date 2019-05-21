@@ -17,9 +17,9 @@ namespace CrossLibrary
             InitializeComponent();
         }
 
-        async void OnButtonClicked(object sender, EventArgs args)
+        void OnButtonClicked(object sender, EventArgs args)
         {
-            await label.RelScaleTo(5) ;
+            label.Text = "clicked!";
         }
     }
 }
